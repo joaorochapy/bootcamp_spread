@@ -20,7 +20,7 @@
 		?>
 		<script>
 			$(document).ready(function() {
-				alert("whoooo");	
+				alert("whoooo!");
 			});
 		</script>
 	</body>
