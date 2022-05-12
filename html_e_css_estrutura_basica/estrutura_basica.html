@@ -3,20 +3,21 @@
   <head>
     <meta charset="utf-8">
     <title>HTML básico</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
-      <img src="coffee.jpg" alt="coffee" width="100" height="100">
-      <h1>João Pedro</h1>
+      <img src="coffee.jpg" alt="coffee" width="100" height="100" class="photo">
+      <h1 id="title">João Pedro</h1>
     </header>
     <section>
-      <h2>Posts</h2>
-      <article>
+      <h2 class="subtitle">Posts</h2>
+      <article class="post">
         <header>
-          <h3>Post #1</h3>
-          <img src="nature.jpg" alt="nature" width="300" height="300">
+          <h3 class="post_title">Deus ou a natureza segundo Spinoza</h3>
+          <img src="nature.jpg" alt="nature" width="300" height="300" class="post_image">
         </header>
-        <p>
+        <p class="post_content">
           Este é o <a href="https://domtotal.com/artigo/8937/2020/07/deus-segundo-spinoza/"
           target="_blank">Deus ou a natureza de Spinoza</a>:
 
@@ -33,7 +34,7 @@
           ou que sua sexualidade seja algo ruim. O sexo é um presente que lhe dei e com o qual você pode
           expressar amor, êxtase, alegria. Assim, não me culpe por tudo o que o fizeram crer.
         </p>
-        <p>
+        <p class="post_content">
           Pare de ficar lendo supostas escrituras sagradas que nada têm a ver comigo! Se não pode me ler num
           amanhecer, numa paisagem, no olhar de seus amigos, nos olhos de seu filhinho, não me encontrará em
           nenhum livro.
@@ -52,7 +53,7 @@
           bem, pelo resto da eternidade? Que Deus faria isso? Esqueça qualquer tipo de mandamento, qualquer
           tipo de lei, que são artimanhas para manipulá-lo, para controlá-lo, que só geram culpa em você!
         </p>
-        <p>
+        <p class="post_content">
           Respeite seu próximo e não faça ao outro o que não queira para você! Preste atenção na
           sua vida, queseu estado de alerta seja seu guia!
 
@@ -74,7 +75,7 @@
           mim, quero que me sinta em você. Quero que me sinta em você quando beija sua amada, quando agasalha
           sua filhinha, quando acaricia seu cachorro, quando toma banho de mar.
         </p>
-        <p>
+        <p class="post_content">
           Pare de louvar-me! Que tipo de Deus ególatra você acredita que eu seja? Aborrece-me que
           me louvem. Cansa-me que me agradeçam. Você se sente grato? Demonstre-o cuidando de você, da sua
           saúde, das suas relações, do mundo. Sente-se olhado, surpreendido? Expresse sua alegria! Esse é um jeito
@@ -88,6 +89,18 @@
         </p>
       </article>
     </section>
-    <footer></footer>
+    <footer>
+      <ul>
+        <li>
+          <a href="mailto:joaorocha.ar@gmail.com">joaorocha.ar@gmail.com</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/joao-pedro-03b97320a/">LinkedIn</a>
+        </li>
+        <li>
+          <a href="https://github.com/joaorochapy">Github</a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
